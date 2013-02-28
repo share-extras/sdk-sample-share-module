@@ -60,4 +60,4 @@ Client-side resources such as CSS and JavaScript can also be included in the `so
 Building Your Project
 ---------------------
 
-See [https://github.com/share-extras/sdk-sample-dashlet#building-your-project](Building Your Project) in the [SDK Sample Dashlet](https://github.com/share-extras/sdk-sample-dashlet) docs.
+See [Building Your Project](https://github.com/share-extras/sdk-sample-dashlet#building-your-project) in the [SDK Sample Dashlet](https://github.com/share-extras/sdk-sample-dashlet) docs.
