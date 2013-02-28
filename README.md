@@ -8,7 +8,7 @@ Alfresco Share 4.0 and to make it easy to define your own modules.
 
 Share Modules are a new feature in Alfresco 4.0 and allow pages to be customised at the region, component or even the mark-up level.
 
-The project builds on the [SDK Sample Dashlet](../sdk-sample-dashlet) and uses the same project structure, Ant build script and Eclipse project configuration, but is suitable for developing more complex customizations such as the examples in [Dave Draper's tutorials](http://blogs.alfresco.com/wp/ddraper/).
+The project builds on the [SDK Sample Dashlet](/share-extras/sdk-sample-dashlet) and uses the same project structure, Ant build script and Eclipse project configuration, but is suitable for developing more complex customizations such as the examples in [Dave Draper's tutorials](http://blogs.alfresco.com/wp/ddraper/).
 
 The project re-uses the tutorial code from Dave's blog to show examples of the following
 
@@ -28,7 +28,7 @@ You will need to be familiar with the concept of a Share Module and the differen
 Creating Your Own Projects
 --------------------------
 
-To use the sample project, download the `sample-share-modules-src-<version>.zip` file from the [http://code.google.com/p/share-extras/downloads/list Downloads] area, and use this to start a new project using Eclipse's Import wizard (click _File_ > _New_ and then select _General_ > _Existing Projects into Workspace_).
+To use the sample project, download the `sample-share-modules-src-<version>.zip` file from the [Downloads](http://code.google.com/p/share-extras/downloads/list) area, and use this to start a new project using Eclipse's Import wizard (click _File_ > _New_ and then select _General_ > _Existing Projects into Workspace_).
 
 Once you have created your project, it should be named _Sample Share Module_ in Eclipse. You should rename this to something of your choosing and update the corresponding JAR file name and source ZIP name specified in `build.properties`.
 
@@ -53,11 +53,11 @@ You can add your own web scripts, components, pages, templates and template inst
   * `site-webscripts` for web-tier web scripts
   * `templates` for page template
 
-For more information on the exact locations required for web scripts, Spring/SpringSurf configuration, see the [SDK Sample Dashlet](../sdk-sample-dashlet).
+For more information on the exact locations required for web scripts, Spring/SpringSurf configuration, see the [SDK Sample Dashlet](/share-extras/sdk-sample-dashlet).
 
-Client-side resources such as CSS and JavaScript can also be included in the `source/web` folder, just as in the [SDK Sample Dashlet](../sdk-sample-dashlet).
+Client-side resources such as CSS and JavaScript can also be included in the `source/web` folder, just as in the [SDK Sample Dashlet](/share-extras/sdk-sample-dashlet).
 
 Building Your Project
 ---------------------
 
-See [../sdk-sample-dashlet#Building_Your_Project](Building Your Project) in the [SDK Sample Dashlet](../sdk-sample-dashlet) docs.
+See [/share-extras/sdk-sample-dashlet#building-your-project](Building Your Project) in the [SDK Sample Dashlet](/share-extras/sdk-sample-dashlet) docs.
